@@ -27,23 +27,23 @@
       }
     },
     "segments": {
-        "Su0wv": {
-    	  "style": "Standard",
-    	  "trackClass": "Mainline",
-    	  "startId": "78veul",
-    	  "endId": "Nk1hr",
-    	  "priority": 1,
-    	  "speedLimit": 0,
-    	  "groupId": ""
-      },
       "Su0wv": {
-    	  "style": "Standard",
-    	  "trackClass": "Mainline",
-    	  "startId": "78veul",
-    	  "endId": "Nk1hr",
-    	  "priority": 1,
-    	  "speedLimit": 0,
-    	  "groupId": ""
+    	"style": "Standard",
+    	"trackClass": "Mainline",
+    	"startId": "78veul",
+    	"endId": "Nk1hr",
+    	"priority": 0,
+    	"speedLimit": 0,
+    	"groupId": ""
+      },
+      "S50r7": {
+        "style": "Standard",
+        "trackClass": "Mainline",
+        "startId": "Nk1hr",
+        "endId": "vs2s9k",
+        "priority": 1,
+        "speedLimit": 45,
+        "groupId": ""
       },
       "SKWIX_IND_jj1a": {
         "style": "Standard",
