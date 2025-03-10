@@ -1,0 +1,13 @@
+name: Do zip on release
+on:
+  release:
+    types:
+      - published
+  workflow_dispatch:
+      
+jobs:
+  do_zip:
+    secrets: inherit
+    uses: jjerhub/Utilities.GithubWorkflows/.github/workflows/MakeRailloaderModZip.yml@v1.0.0
+    with:
+      mod-name: 'KWIX_PatchAndSmooth'
