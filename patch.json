@@ -1,0 +1,216 @@
+{	
+  "tracks": {
+    "spans": {
+      "WhittierInterchange01": {
+        "upper": {
+          "segmentId": "SKWIX_IND_jj1a",
+          "distance": 10,
+          "end": "End"
+        },
+        "lower": {
+          "segmentId": "SKWIX_IND_m1hh",
+          "distance": 35,
+          "end": "Start"
+        }
+      },
+      "WhittierInterchange02": {
+        "upper": {
+          "segmentId": "SKWIX_IND_667u",
+          "distance": 5,
+          "end": "Start"
+        },
+        "lower": {
+          "segmentId": "SKWIX_IND_jqc2",
+          "distance": 15,
+          "end": "End"
+        }
+      }
+    },
+    "segments": {
+        "Su0wv": {
+    	  "style": "Standard",
+    	  "trackClass": "Mainline",
+    	  "startId": "78veul",
+    	  "endId": "Nk1hr",
+    	  "priority": 1,
+    	  "speedLimit": 0,
+    	  "groupId": ""
+      },
+      "Su0wv": {
+    	  "style": "Standard",
+    	  "trackClass": "Mainline",
+    	  "startId": "78veul",
+    	  "endId": "Nk1hr",
+    	  "priority": 1,
+    	  "speedLimit": 0,
+    	  "groupId": ""
+      },
+      "SKWIX_IND_jj1a": {
+        "style": "Standard",
+        "trackClass": "Branch",
+        "startId": "NKWIX_IND_1fip",
+        "endId": "NKWIX_IND_jj1a",
+        "priority": 0,
+        "speedLimit": 25,
+        "groupId": ""
+      },
+      "SKWIX_IND_jj1b": {
+        "style": "Standard",
+        "trackClass": "Branch",
+        "startId": "NKWIX_IND_jj1b",
+        "endId": "NKWIX_IND_jj1c",
+        "priority": 0,
+        "speedLimit": 25,
+        "groupId": ""
+      },
+      "SKWIX_IND_jj1c": {
+        "style": "Standard",
+        "trackClass": "Branch",
+        "startId": "NKWIX_IND_jj1b",
+        "endId": "NKWIX_IND_9ab4",
+        "priority": 0,
+        "speedLimit": 25,
+        "groupId": ""
+      },
+      "SKWIX_IND_7tem": {
+        "style": "Standard",
+        "trackClass": "Branch",
+        "startId": "NKWIX_IND_jj1a",
+        "endId": "NKWIX_IND_9ab4",
+        "priority": -1,
+        "speedLimit": 25,
+        "groupId": ""
+      },
+      "SKWIX_IND_t921": {
+        "style": "Standard",
+        "trackClass": "Branch",
+        "startId": "NKWIX_IND_dy7j",
+        "endId": "NKWIX_IND_jj1c",
+        "priority": 0,
+        "speedLimit": 25,
+        "groupId": ""
+      },
+      "SKWIX_IND_m1hh": {
+        "style": "Standard",
+        "trackClass": "Branch",
+        "startId": "NKWIX_IND_q85q",
+        "endId": "NKWIX_IND_7ryf",
+        "priority": 0,
+        "speedLimit": 15,
+        "groupId": ""
+      },
+      "SKWIX_IND_yj9j": {
+        "style": "Standard",
+        "trackClass": "Branch",
+        "startId": "NKWIX_IND_p2aj",
+        "endId": "NKWIX_IND_i9kd",
+        "priority": -1,
+        "speedLimit": 0,
+        "groupId": ""
+      },
+    },
+    "nodes": {
+      "NKWIX_IND_1fip": {
+        "position": { "x": 12191.3, "y": 561.25, "z": 5435.168 },
+        "rotation": { "x": 0.0, "y": 181, "z": 0.0 },
+        "flipSwitchStand": false
+      },
+      "NKWIX_IND_jj1c": {
+        "position": { "x": 12195.1, "y": 561.25, "z": 5430 },
+        "rotation": { "x": 0.0, "y": 182.5, "z": 0.0 },
+        "flipSwitchStand": false
+      },
+      "NKWIX_IND_jj1a": {
+        "position": { "x": 12191.6, "y": 561.25, "z": 5400 },
+        "rotation": { "x": 0.0, "y": 177, "z": 0.0 },
+        "flipSwitchStand": true
+      },
+      "NKWIX_IND_jj1b": {
+        "position": { "x": 12194, "y": 561.25, "z": 5400 },
+        "rotation": { "x": 0.0, "y": 182, "z": 0.0 },
+        "flipSwitchStand": false
+      },
+      "NKWIX_IND_608i": {
+        "position": { "x": 12192.7, "y": 561.25, "z": 5475.06 },
+        "rotation": { "x": 0.0, "y": 183, "z": 0.0 },
+        "flipSwitchStand": false
+      },
+      "NKWIX_IND_dy7j": {
+        "position": { "x": 12197.5, "y": 561.25, "z": 5475.14746 },
+        "rotation": { "x": 0.0, "y": 184, "z": 0.0 },
+        "flipSwitchStand": false
+      },
+      "NKWIX_IND_9ab4": {
+        "position": { "x": 12197, "y": 561.25, "z": 5365.07861 },
+        "rotation": { "x": 0.0, "y": 166, "z": 0.0 },
+        "flipSwitchStand": true
+      },
+      "NKWIX_IND_6hxi": {
+        "position": { "x": 12187.9, "y": 561.25, "z": 5474.97266 },
+        "rotation": { "x": 0.0, "y": 183, "z": 0.0 },
+        "flipSwitchStand": false
+      },
+	  "NKWIX_IND_f2yd": {
+        "position": { "x": 12187, "y": 561.25, "z": 5435.07861 },
+        "rotation": { "x": 0.0, "y": 180, "z": 0.0 },
+        "flipSwitchStand": false
+      },
+      "NKWIX_IND_p2aj": {
+        "position": { "x": 12208.7, "y": 561.25, "z": 5330 },
+        "rotation": { "x": 0.0, "y": 157.199875, "z": 0.0 },
+        "flipSwitchStand": true
+      },
+      "NKWIX_IND_q85q": {
+        "position": { "x": 12383, "y": 561.25, "z": 5802 },
+        "rotation": { "x": 0.0, "y": 215, "z": 0.0 },
+        "flipSwitchStand": false
+      },
+      "NKWIX_IND_7ryf": {
+        "position": { "x": 12351, "y": 561.25, "z": 5769 },
+        "rotation": { "x": 0.0, "y": 228.5, "z": 0.0 },
+        "flipSwitchStand": false
+      },
+      "NKWIX_IND_cty0": {
+        "position": { "x": 12288.2, "y": 561.25, "z": 5713.23975 },
+        "rotation": { "x": 0.0, "y": 228.3, "z": 0.0 },
+        "flipSwitchStand": false
+      },
+      "NKWIX_IND_bjej": {
+        "position": { "x": 12291.5, "y": 561.25, "z": 5710.06641 },
+        "rotation": { "x": 0.0, "y": 228, "z": 0.0 },
+        "flipSwitchStand": false
+      },
+      "NKWIX_IND_27fl": {
+        "position": { "x": 12354, "y": 561.25, "z": 5766 },
+        "rotation": { "x": 0.0, "y": 228, "z": 0.0 },
+        "flipSwitchStand": false
+      },
+      "NKEWIX_6jh0": {
+        "position": { "x": 12407.4, "y": 561.25, "z": 5838 },
+        "rotation": { "x": 0.0, "y": 214.5, "z": 0.0 },
+        "flipSwitchStand": false
+      },
+      "NKWIX_IND_352e": {
+        "position": { "x": 12450.8438, "y": 561.25, "z": 5902.739 },
+        "rotation": { "x": 0.0, "y": 213.5, "z": 0.0 },
+        "flipSwitchStand": false
+      },
+      "NKWIX_IND_mjvt": null,
+      "NKWIX_IND_v8pi": {
+        "position": { "x": 12388.8, "y": 561.25, "z": 5814 },
+        "rotation": { "x": 0.0, "y": 220.5, "z": 0.0 },
+        "flipSwitchStand": true
+      },
+      "NKWIX_IND_tdq0": {
+        "position": { "x": 12349, "y": 561.25, "z": 5773 },
+        "rotation": { "x": 0.0, "y": 228, "z": 0.0 },
+        "flipSwitchStand": false
+      },
+      "NKWIX_IND_jwdt": {
+        "position": { "x": 12286.5, "y": 561.25, "z": 5717.013 },
+        "rotation": { "x": 0.0, "y": 228.5, "z": 0.0 },
+        "flipSwitchStand": false
+      },
+	},
+  }
+}

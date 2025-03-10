@@ -1,0 +1,28 @@
+{
+  "manifestVersion": 5,
+  "id": "jjerhub.KWIX_PatchAndSmooth",
+  "name": "KWIX Patch and Smooth",
+  "version": "1.0.0",
+  "requires": [
+    {
+      "id": "railloader",
+      "notBefore": "1.9.6.8"
+    },
+	{
+		"id": "Zamu.StrangeCustoms",
+		"notBefore": "1.10.25017.313"
+	},
+	{
+		"id": "KingG.KWIX",
+		"notBefore": "1.7.3"
+	},
+  ],
+  "conflictsWith": [
+	{
+		"id": "KingG.KWIX_Industry"
+	}
+  ],
+  "mixintos": {
+    "game-graph": "file(patch.json)"
+  },
+}
