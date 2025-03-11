@@ -1,30 +1,44 @@
 {	
+  "areas": {
+    "whittier": {
+      "industries": {
+        "whittierinterchange": {
+          "components": {
+            "interchange": {
+              "trackSpans": { "$replace": ["WhittierInterchange02", "WhittierInterchange01"] },
+            },
+          },
+        },
+      },
+    },
+  },
   "tracks": {
     "spans": {
-      "WhittierInterchange01": {
+      "WhittierInterchange02": {
+        "lower": {
+          "segmentId": "SKWIX_IND_667u",
+          "distance": 10,
+          "end": "Start"
+        },
         "upper": {
+          "segmentId": "SKWIX_IND_jqc2",
+          "distance": 15,
+          "end": "Start"
+        },
+      },
+      "WhittierInterchange01": {
+		"normalize": true,
+        "lower": {
           "segmentId": "SKWIX_IND_jj1a",
           "distance": 10,
           "end": "End"
         },
-        "lower": {
+        "upper": {
           "segmentId": "SKWIX_IND_m1hh",
           "distance": 35,
-          "end": "Start"
-        }
-      },
-      "WhittierInterchange02": {
-        "upper": {
-          "segmentId": "SKWIX_IND_667u",
-          "distance": 5,
-          "end": "Start"
-        },
-        "lower": {
-          "segmentId": "SKWIX_IND_jqc2",
-          "distance": 15,
           "end": "End"
-        }
-      }
+        },
+      },
     },
     "segments": {
       "Su0wv": {
@@ -93,8 +107,8 @@
       "SKWIX_IND_m1hh": {
         "style": "Standard",
         "trackClass": "Branch",
-        "startId": "NKWIX_IND_q85q",
-        "endId": "NKWIX_IND_7ryf",
+        "startId": "NKWIX_IND_7ryf",
+        "endId": "NKWIX_IND_q85q",
         "priority": 0,
         "speedLimit": 15,
         "groupId": ""
